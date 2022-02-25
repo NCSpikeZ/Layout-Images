@@ -3,13 +3,10 @@
     width: 100px;
     height: 81px;
     background-color: whitesmoke;
+    position: absolute;
     border-radius: 100px;
-    margin-top: 250px;
-    margin-right: 50px;
-}
-
-.img{
-    text-align: right;
+    top: 250px;
+    right: 50px;
 }
 
 body{
@@ -27,18 +24,16 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 45px;
 }
+.vmin{
+    font-size: 8vmin;
+}
+
 
 @media (orientation: landscape){
 body{
     background-image: url(../assets/images/sunny.jpg)
 }
 
-.soleil{
-    margin-top: 150px;
-}
-.img{
-    text-align: right;
-}
 
 .header--container{
     background-color: white;
