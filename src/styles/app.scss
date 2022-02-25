@@ -2,11 +2,28 @@
 .soleil{
     width: 100px;
     height: 81px;
-    background-color: rgb(140, 143, 143);
+    background-color: whitesmoke;
     border-radius: 100px;
 }
+
 .img{
     text-align: right;
     margin-right: 50px;
     margin-top: 250px;
+}
+
+body{
+    background-image: url(../assets/images/cloudy.jpg);
+    background-repeat: no-repeat;
+}
+
+@media (orientation: landscape){
+body{
+    background-image: url(../assets/images/sunny.jpg)
+}
+
+.img{
+    text-align: right;
+    margin-top: 150px;
+}
 }
