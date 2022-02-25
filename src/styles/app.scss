@@ -13,7 +13,6 @@ body{
     background-image: url(../assets/images/cloudy.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
 }
 
 .header--container {
@@ -26,6 +25,16 @@ body{
 }
 .vmin{
     font-size: 8vmin;
+}
+
+.info{
+    height: 100vh;
+    margin-left: 30px;
+}
+
+.infoscroll{
+    color: white;
+    text-align: center;
 }
 
 
