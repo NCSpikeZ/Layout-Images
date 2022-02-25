@@ -4,17 +4,28 @@
     height: 81px;
     background-color: whitesmoke;
     border-radius: 100px;
+    margin-top: 250px;
+    margin-right: 50px;
 }
 
 .img{
     text-align: right;
-    margin-right: 50px;
-    margin-top: 250px;
 }
 
 body{
     background-image: url(../assets/images/cloudy.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header--container {
+    background-color: grey;
+    opacity: 70%;
+    height: 70px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
 }
 
 @media (orientation: landscape){
@@ -22,8 +33,15 @@ body{
     background-image: url(../assets/images/sunny.jpg)
 }
 
-.img{
-    text-align: right;
+.soleil{
     margin-top: 150px;
 }
+.img{
+    text-align: right;
+}
+
+.header--container{
+    background-color: white;
+}
+
 }
